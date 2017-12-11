@@ -1,0 +1,28 @@
+.firstline {
+    max-width: 250px;
+    max-height: 250px;
+    background-color: lightsalmon;
+    text-align: left;
+    padding: 10px;
+    color: lightyellow;
+    display: flex;
+    justify-content: flex-start;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+.firstline p::first-line {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 1.2em;
+    color: lightgrey;
+}
+
+.firstline p::first-letter {
+    font-family: 'Bungee Inline', cursive;
+    background-color: lightgrey;
+    color: lightsalmon;
+    font-size: 4em;
+    padding: 10px;
+    margin-right: 5px;
+    float: left;
+}

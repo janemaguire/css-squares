@@ -1,0 +1,19 @@
+.rainbow-text {
+    font-size: 1.5em;
+    background-color: linen;
+    color: red;
+    animation-name: rainbow;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rainbow {
+    14% {color: orange;}
+    28% {color: yellow;}
+    42% {color: green;}
+    56% {color: blue;}
+    70% {color: indigo;}
+    84% {color: violet;}
+    100% {color: red;}
+}

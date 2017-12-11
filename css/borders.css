@@ -1,0 +1,33 @@
+.border-first {
+    height: 200px;
+    width: 200px;
+    background-color: lightcyan;
+    border: double skyblue 6px;
+}
+
+.border-second {
+    height: 150px;
+    width: 150px;
+    background-color: paleturquoise;
+    border: dashed cornflowerblue 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-third {
+    height: 100px;
+    width: 100px;
+    background-color: powderblue;
+    border: dotted royalblue 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-fourth {
+    height: 50px;
+    width: 50px;
+    background-color: lightsteelblue;
+    border: outset steelblue 8px;
+}

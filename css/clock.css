@@ -1,0 +1,39 @@
+.clock {
+    position: relative;
+}
+
+.clock-hand {
+    height: 100px;
+    width: 2px;
+    background-color: crimson;
+    position: absolute;
+    top: 25px;
+    transform-origin: bottom;
+    animation: tick 60s infinite steps(60);
+}
+
+.clock-top {
+    position: absolute;
+    top: 10px;
+}
+
+.clock-right {
+    position: absolute;
+    right: 10px;
+}
+
+.clock-bottom {
+    position: absolute;
+    bottom: 10px;
+}
+
+.clock-left {
+    position: absolute;
+    left: 10px;
+}
+
+@keyframes tick {
+    100% {
+        transform: rotate(360deg);
+    }
+}
