@@ -1,6 +1,6 @@
 .border-first {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     background-color: lightcyan;
     border: double skyblue 6px;
 }
