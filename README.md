@@ -6,7 +6,7 @@ CSS Squares is created by us to share creative and fun css code.
 
 Each square has it's own styling which you can easily copy for use in other projects.
 
-We have kept thing simple:
+We have kept things simple:
 ## Built With
 * [HTML]
 * [CSS]
