@@ -53,6 +53,7 @@ h2 {
 }
 
 .square {
+    display: inline;
     width: 250px;
     height: 250px;
     box-shadow: 5px 5px 10px darkgrey;
