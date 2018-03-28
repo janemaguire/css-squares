@@ -1,16 +1,16 @@
-.grid {
+.basic-grid {
 	background-color: peachpuff;
 	color: orchid;
 }
 
-.grid-container {
+.basic-grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	background-color: lavender;
 	border: 1px solid orchid;
 }
 
-.grid-item {
+.basic-grid-item {
 	width: 4rem;
 	padding: 1rem;
 	border: 1px solid orchid;

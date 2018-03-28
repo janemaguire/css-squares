@@ -1,0 +1,48 @@
+.fancy-grid {
+	background-color: gold;
+	color: crimson;
+}
+
+.fancy-grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas:
+		"f f a a n n"
+		"c c c y y y"
+		"grid grid grid grid grid grid";
+		grid-column-gap: 0.5rem;
+  	grid-row-gap: 0.5rem;
+}
+
+.fancy-grid-item {
+	padding: 1rem;
+	font-size: 2rem;
+	border-radius: 0.5rem;
+	background-color: lightyellow;
+}
+
+.f {
+  grid-area: f;
+}
+
+.a {
+  grid-area: a;
+}
+
+.n {
+  grid-area: n;
+}
+
+.c {
+  grid-area: c;
+}
+
+.y {
+  grid-area: y;
+}
+
+.grid {
+	grid-area: grid;
+		background-color: orange;
+}

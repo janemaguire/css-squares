@@ -20,7 +20,8 @@
   <link rel="stylesheet" href="css/borders.css">
   <link rel="stylesheet" href="css/starwars.css">
   <link rel="stylesheet" href="css/parallax.css">
-  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/basic-grid.css">
+  <link rel="stylesheet" href="css/fancy-grid.css">
 </head>
 
 <body>
@@ -189,19 +190,39 @@
           </div>
         </div>
       </div>
-      <div class="square grid">
+      <div class="square basic-grid">
         <!-- This square needs an extra div, display:grid doesn't work on the square div because it already has display:flex -->
-        <div class="grid-container">
-          <div class="grid-item">B</div>
-          <div class="grid-item">A</div>
-          <div class="grid-item">S</div>
-          <div class="grid-item">I</div>
-          <div class="grid-item">C</div>
-          <div class="grid-item">G</div>
-          <div class="grid-item">R</div>
-          <div class="grid-item">I</div>
-          <div class="grid-item">D</div>
+        <div class="basic-grid-container">
+          <div class="basic-grid-item">B</div>
+          <div class="basic-grid-item">A</div>
+          <div class="basic-grid-item">S</div>
+          <div class="basic-grid-item">I</div>
+          <div class="basic-grid-item">C</div>
+          <div class="basic-grid-item">G</div>
+          <div class="basic-grid-item">R</div>
+          <div class="basic-grid-item">I</div>
+          <div class="basic-grid-item">D</div>
         </div>
+      </div>
+      <div class="square fancy-grid">
+        <!-- This square needs an extra div, display:grid doesn't work on the square div because it already has display:flex -->
+        <div class="fancy-grid-container">
+          <div class="fancy-grid-item f">F</div>
+          <div class="fancy-grid-item a">A</div>
+          <div class="fancy-grid-item n">N</div>
+          <div class="fancy-grid-item c">C</div>
+          <div class="fancy-grid-item y">Y</div>
+          <div class="fancy-grid-item grid">GRID</div>
+        </div>
+      </div>
+      <div class="square">
+        next square
+      </div>
+      <div class="square">
+        next square
+      </div>
+      <div class="square">
+        next square
       </div>
       <div class="square">
         next square
