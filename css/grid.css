@@ -1,3 +1,18 @@
 .grid {
-	background-color: pink;
+	background-color: peachpuff;
+	color: orchid;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: lavender;
+	border: 1px solid orchid;
+}
+
+.grid-item {
+	width: 4rem;
+	padding: 1rem;
+	border: 1px solid orchid;
+	font-size: 2rem;
 }
